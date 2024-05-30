@@ -2,6 +2,11 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+body {
+  background: url('./assets/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .no-button {
   background: none;
   border: none;
@@ -22,3 +27,4 @@ header, .project:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+

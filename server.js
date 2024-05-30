@@ -42,6 +42,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Serve Bootstrap CSS and JS
 app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')));
 app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 app.use(routes);
 
