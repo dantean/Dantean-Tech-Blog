@@ -14,11 +14,7 @@
     }
 
     .logo {
-      max-width: 30%;
-    }
-
-    .nav-links {
-      margin-left: auto;
+      max-width: 15%;
     }
 
     .nav-links a,
@@ -40,6 +36,8 @@
       <a href="/">
         <img src="/assets/logo.png" alt="Tech Blog Logo" class="logo">
       </a>
+    </header>
+    <div class="d-flex justify-content-end p-3 bg-secondary">
       <nav class="nav-links d-flex align-items-center">
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
@@ -49,7 +47,7 @@
         <a href="/login" class="mx-2">Login</a>
         {{/if}}
       </nav>
-    </header>
+    </div>
     <main class="container my-5 flex-grow-1">
       <!-- Render the sub layout -->
       {{{ body }}}

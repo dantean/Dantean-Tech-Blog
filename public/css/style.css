@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .logo {
   max-width: 10%;
-  padding-top: 0px;
+  padding-top: -100px;
   padding-bottom: 25px;
 
 }
