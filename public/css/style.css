@@ -2,11 +2,6 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-/* body {
-  background: url('./assets/bg.png') no-repeat center center fixed;
-  background-size: cover;
-} */
-
 .no-button {
   background: none;
   border: none;
@@ -28,3 +23,15 @@ header, .project:not(:last-child) {
   margin-left: -5px;
 }
 
+body {
+  color: #ffffff;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #ffffff;
+}
+
+.logo {
+  max-width: 10%;
+}
