@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seeds/seed.js",
+    "migrate": "sequelize db:migrate"
   },
   "keywords": [],
   "author": "",
@@ -29,5 +30,9 @@
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2",
     "sequelize-cli": "^6.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   }
 }
